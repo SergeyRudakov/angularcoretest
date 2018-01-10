@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ContentLoaderComponent implements OnInit {
 
-  NEWS_URL  = 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=dfd7259acaf24eefa50e025d25455b90';
+  NEWS_URL  = 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=XXX';
   public news: NewsList;
   public newsItem: any;
   public newsItemIndex = 0;
